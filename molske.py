@@ -354,10 +354,10 @@ def main():
 
     st.markdown(
       """
-      A molecule sketched with _hexagonal-shaped_ **atoms** and _hand-drawn_ **bonds** can be detected
-      with a web camera to convert it into 2D & 3D structures and predict its chemical properties.
+      A molecule sketched with _hexagon-shaped_ **atoms** and _hand-drawn_ **bonds** can be detected
+      with a web camera to convert it into 2D & 3D structures, and predict its chemical properties.
 
-      * **Black**, **blue**, and **red** hexagonal-shaped parts are recognized as
+      * **Black**, **blue**, and **red** hexagon-shaped parts are recognized as
         carbon (**C**), nitrogen (**N**), and oxygen (**O**) atoms, respectively.
       * **Green**, **red**, and **yellow** lines shown on the video screen represent
         **single**, **double**, and **triple** bonds, respectively.
@@ -379,7 +379,7 @@ def main():
 
     st.markdown(
       """
-      * This web app is developed by [Yamamoto, Norifumi (@yamnor)](https://twitter.com/yamnor).      
+      * This web app is developed by Yamamoto, Norifumi. [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40yamnor)](https://twitter.com/yamnor)
       * You can follow me on social media:
         [GitHub](https://github.com/yamnor) | 
         [LinkedIn](https://www.linkedin.com/in/yamnor) | 

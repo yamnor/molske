@@ -1,8 +1,8 @@
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://molske.streamlitapp.com/)
-
 # molske ✍️
 
 A Streamlit app that reads a molecule sketched with _hexagon-shaped_ **atoms** and _hand-drawn_ **bonds** to convert it into 2D & 3D structures, and predict its chemical properties.
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://molske.streamlitapp.com/)
 
 ## How to play
 
@@ -38,7 +38,7 @@ streamlit run molske.py
 
 ## Author
 
-* This web app is developed by [Yamamoto, Norifumi (@yamnor)](https://twitter.com/yamnor).      
+* This web app is developed by Yamamoto, Norifumi. [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40yamnor)](https://twitter.com/yamnor)
 * You can follow me on social media:
   [GitHub](https://github.com/yamnor) | 
   [LinkedIn](https://www.linkedin.com/in/yamnor) | 
