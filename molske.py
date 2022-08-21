@@ -350,11 +350,11 @@ def main():
 
     st.subheader('How to play')
 
-    st.video('https://yamlab.net/Files/molske.mp4', format="video/mp4")
+    st.video('https://user-images.githubusercontent.com/134783/185785833-f35cfd95-e499-4cc5-bf1f-54623453075d.mp4', format="video/mp4")
 
     st.markdown(
       """
-      A molecule sketched with "hexagonal-shaped" **atoms** and "hand-drawn" **bonds** can be detected
+      A molecule sketched with _hexagonal-shaped_ **atoms** and _hand-drawn_ **bonds** can be detected
       with a web camera to convert it into 2D & 3D structures and predict its chemical properties.
 
       * **Black**, **blue**, and **red** hexagonal-shaped parts are recognized as
