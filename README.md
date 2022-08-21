@@ -22,15 +22,13 @@ https://user-images.githubusercontent.com/134783/185785833-f35cfd95-e499-4cc5-bf
 * No data is stored, everything is processed in memory and discarded,
   but if this is a concern for you, please refrain from using this app.
 
-## Local installation
+## Local installation & run
 
 ```
 git clone https://github.com/yamnor/molske.git
 cd molske
 pip install -r requirements.txt
 ```
-
-## How to run
 
 ```
 streamlit run molske.py
