@@ -354,8 +354,8 @@ def main():
 
     st.markdown(
       """
-      A molecule sketched with "hexagonal-shaped" **atoms** and "hand-drawn" **bonds** can be captured
-      with a web camera to convert it into 2D & 3D structures and predict its basic properties.
+      A molecule sketched with "hexagonal-shaped" **atoms** and "hand-drawn" **bonds** can be detected
+      with a web camera to convert it into 2D & 3D structures and predict its chemical properties.
 
       * **Black**, **blue**, and **red** hexagonal-shaped parts are recognized as
         carbon (**C**), nitrogen (**N**), and oxygen (**O**) atoms, respectively.
