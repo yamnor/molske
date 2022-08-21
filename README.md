@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/134783/185785833-f35cfd95-e499-4cc5-bf
 ## Local installation & run
 
 ```
-git clone https://github.com/yamnor/molske.git
+git clone https://github.com/yamnor/molske
 cd molske
 pip install -r requirements.txt
 ```
