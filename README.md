@@ -9,9 +9,9 @@ A Streamlit app that reads a molecule sketched with _hexagon-shaped_ **atoms** a
 https://user-images.githubusercontent.com/134783/185785833-f35cfd95-e499-4cc5-bf1f-54623453075d.mp4
 
 * **Black**, **blue**, and **red** hexagonal-shaped parts are recognized as
-  carbon (**C**), nitrogen (**N**), and oxygen (**O**) atoms, respectively.
+  carbon (**C**), nitrogen (**N**), and oxygen (**O**) atoms.
 * **Green**, **red**, and **yellow** lines shown on the video screen represent
-  **single**, **double**, and **triple** bonds, respectively.
+  **single**, **double**, and **triple** bonds.
 * Chemical structures can be drawn in [skeletal formula](https://en.wikipedia.org/wiki/Skeletal_formula).
   Hydrogen (**H**) atoms are automatically added according to the detected chemical structure.
 

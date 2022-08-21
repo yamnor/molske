@@ -23,7 +23,7 @@ from rdkit.Chem.Draw import SimilarityMaps, rdMolDraw2D
 import py3Dmol
 from stmol import showmol
 
-atomcolor = {
+atomcolor = { # HSV
   'C' : {'min' : (  0,   0,   0), 'max' : (180, 255,  40)},
   'N' : {'min' : ( 90,  64, 128), 'max' : (150, 255, 255)},
   'O' : {'min' : (160,  64,   0), 'max' : (180, 255, 255)}}
@@ -111,9 +111,10 @@ def smi2mol(smi):
 
 def img2smi(img, model):
 
-  obj = model(img).pandas().xyxy[0]
-
   hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+
+  gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+  obj = model(gray).pandas().xyxy[0]
 
   atom = []
   for i in range(len(obj.name)):
@@ -358,9 +359,9 @@ def main():
       with a web camera to convert it into 2D & 3D structures, and predict its chemical properties.
 
       * **Black**, **blue**, and **red** hexagon-shaped parts are recognized as
-        carbon (**C**), nitrogen (**N**), and oxygen (**O**) atoms, respectively.
+        carbon (**C**), nitrogen (**N**), and oxygen (**O**) atoms.
       * **Green**, **red**, and **yellow** lines shown on the video screen represent
-        **single**, **double**, and **triple** bonds, respectively.
+        **single**, **double**, and **triple** bonds.
       * Chemical structures can be drawn in [skeletal formula](https://en.wikipedia.org/wiki/Skeletal_formula).
         Hydrogen (**H**) atoms are automatically added according to the detected chemical structure.
       """)
