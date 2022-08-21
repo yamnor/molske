@@ -1,7 +1,7 @@
 import threading
 
-#import os
-#os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+import os
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 
 import streamlit as st
 from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
@@ -362,6 +362,8 @@ def main():
       * Chemical structures can be drawn in [skeletal formula](https://en.wikipedia.org/wiki/Skeletal_formula).
         Hydrogen (**H**) atoms are automatically added according to the detected chemical structure.
       """)
+
+    st.video('https://www.youtube.com/watch?v=nqnUJOCAn2k', format="video/mp4")
 
     st.subheader("Notice")
 
