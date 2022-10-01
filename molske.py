@@ -46,10 +46,10 @@ def draw_text(img, txt, xy):
 def draw_bond(img, atom, adjmat):
   natoms = len(atom)
   colors = [
-    (255, 255, 255), # none
-    (  0, 255,   0), # single
-    (  0,   0, 255), # double
-    (  0, 255, 255)] # triple
+    (255, 255, 255),  # none
+    (  0, 255,   0),  # single
+    (  0,   0, 255),  # double
+    (  0, 255, 255)]  # triple
   for i in range(natoms):
     for j in range(i + 1, natoms):
       xi, yi = atom[i]['geom']
