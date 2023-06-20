@@ -20,8 +20,8 @@ psutil
 thop>=0.1.1
 
 rdkit
-py3Dmol
-stmol==0.0.7
+py3Dmol==2.0.0.post2
+stmol==0.0.9
 
-streamlit==1.11.1
+streamlit
 streamlit-webrtc
