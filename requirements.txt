@@ -25,5 +25,5 @@ rdkit
 py3Dmol==2.0.0.post2
 stmol==0.0.9
 
-streamlit
-streamlit-webrtc
+streamlit>=1.23.1
+streamlit-webrtc>=0.45.1
